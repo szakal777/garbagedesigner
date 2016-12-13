@@ -1,0 +1,108 @@
+@import	url(reset.css);
+
+html {
+	background: #ffc107 url(http://i66.tinypic.com/t02u1f.jpg) fixed no-repeat;
+	background-size: contain;
+	font-size: 62.5%;
+	font-family: 'Playfair Display', serif;
+	color: color: #48504e;
+}
+
+.orange { color: #ffc107; }
+.grey {color: #48504e;}
+.lightgrey {color: #d4d4d3; }
+
+h1 {font-size: 3.7rem; 
+	background-color: rgba(255, 255, 255, .9);
+	padding: 3.5rem;
+	margin: 4.0rem;
+	display: inline-block;
+	border-top-left-radius: 2.0rem;
+	}
+
+h2 {font-size: 2.7rem; }
+
+h3 { font-size: 3.1rem; }
+
+h3,h2 {
+	font-size: 3.1rem; 
+	color: #fff; 
+	background-color: #48504e;
+	padding: 1.5rem;
+	display: inline-block;
+}
+
+
+p {font-size: 1.8rem; line-height: 1.55; }
+
+ul {font-size: 2.3rem; line-height: 1,75; }
+
+footer p {font-size: 1.4rem; color: #d4d4d3;}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.summary {
+	font-size: 2.4rem; 
+	font-style: italic;
+}
+
+
+.dot {
+	width: 1rem;
+	height: 1rem;
+	background-color: #48504e;
+	margin: 1rem auto;
+	border-radius: 2rem;
+}
+
+
+.deleted {
+	text-decoration: line-through; 
+}
+
+.button-more {
+	display: inline-block;
+	border: 1px dashed #000;
+	font-size: 3rem;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+}
+
+header {
+	display: none;
+}
+
+.menu {
+	background: url(http://i63.tinypic.com/104qg0l.png) right no-repeat;
+	margin: 1rem;
+	height: 3.2rem;
+	display: block;
+
+}
+
+article {
+	width: 1080px;
+	min-width: 600px;
+	max-width: 850px;
+	position: absolute;
+	right: 5%;
+
+}
+
+hgroup {
+	margin-left: -25%;
+	position: relative;
+	display: inline-block;
+}
+
+h3 {
+	position: absolute;
+	right: 0;
+	bottom: 5%;
+}
