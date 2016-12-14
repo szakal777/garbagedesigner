@@ -1,4 +1,5 @@
 @import	url(reset.css);
+@import	url(ramka.css);
 
 html {
 	background: #ffc107 url(http://i66.tinypic.com/t02u1f.jpg) fixed no-repeat;
@@ -30,6 +31,11 @@ h3,h2 {
 	background-color: #48504e;
 	padding: 1.5rem;
 	display: inline-block;
+}
+
+h4 {
+	font-size: 2rem;
+	padding: 2rem 1rem;
 }
 
 
@@ -76,17 +82,81 @@ em {
 	right: 0;
 }
 
-header {
-	display: none;
+header { 
+	display:none ;
+	background: #48504e;
+	color: #fff;
+	height: 30rem;
+	padding: 10rem;
+}
+
+nav {
+	float:right;
+}
+
+nav li {
+	text-align: right;
+	background: url(http://i65.tinypic.com/161kf0m.png) right no-repeat;
+	padding-right: 4rem;
+	line-height: 1.5rem;
+	margin: 3rem;
+}
+
+button {
+	background: #ffc107;
+	border: none;
+	padding: 2rem 6rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	float:right;
+	cursor:pointer;
+	margin-top: -1,5rem;
+	margin-right: -3rem;
+}
+
+
+form {
+	float: left;
+	width:35rem;
+}
+
+input, textarea {
+	width: 35rem;
+	background: none;
+	border:2px #d4d4d3 solid;
+	margin: .5rem;
+	padding: 1rem;
+	color: #fff;
+	font-size: 1.7rem;
 }
 
 .menu {
-	background: url(http://i63.tinypic.com/104qg0l.png) right no-repeat;
+	background: #fff url(http://i63.tinypic.com/104qg0l.png) center   no-repeat;
+	padding: 1rem;
 	margin: 1rem;
 	height: 3.2rem;
 	display: block;
-
+	position: fixed;
+	width: 3.2rem;
+	right: 0;
+	z-index: 9999;
 }
+
+.hoverme:hover   header {
+	display: block;
+}
+
+footer {
+
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 1rem;
+	background: #fff;
+	z-index:6;
+}
+ 
+
 
 section {
 	width: 1080px;
@@ -122,4 +192,43 @@ figure {
 
 article {
 	margin-bottom: 4rem;
+}
+
+@media all and (max-width: 1280px) {
+
+	html {
+		background: #ffc107;
+	}
+
+	section {
+		width:75%;
+	}
+
+	.bg {
+		background: url(https://zapodaj.net/f5450d5e4efe4.jpg.html) fixed no-repeat;
+		height: 300px;
+
+	}
+
+@media all and (max-width: 768px) {
+
+	hgroup { 
+	margin-left: 0%;
+	
+}
+
+figure {
+	display:none;
+}
+
+section {
+	width: 90%;
+	min-width: 300px;
+	right: 5%;
+
+} 
+
+.text {
+	column-count: 1;
+
 }
